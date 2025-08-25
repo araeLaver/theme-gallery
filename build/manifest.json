@@ -1,0 +1,51 @@
+{
+  "short_name": "테마갤러리",
+  "name": "테마 갤러리 - 큐레이션된 이미지 라이브러리",
+  "description": "64개 테마로 분류된 고품질 이미지를 탐색하고 다운로드하세요. 매주 새로운 이미지가 업데이트됩니다.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#8B5CF6",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["photo", "entertainment", "design"],
+  "shortcuts": [
+    {
+      "name": "새로운 이미지",
+      "short_name": "새 이미지",
+      "description": "이번 주 새로 추가된 이미지 보기",
+      "url": "/new-images",
+      "icons": [{ "src": "/icons/new-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "즐겨찾기",
+      "short_name": "즐겨찾기", 
+      "description": "내가 저장한 즐겨찾기 이미지",
+      "url": "/favorites",
+      "icons": [{ "src": "/icons/favorite-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "lang": "ko-KR",
+  "dir": "ltr"
+}
